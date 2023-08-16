@@ -18,10 +18,20 @@ function calElevy($amt)
 
     return $amtCharged;
 }
+$Salary = function ($takehomeAmt)
+  {
+    $rent = 20 / 100 * $takehomeAmt;
 
+    return $takehomeAmt + $rent;
 
+  };
+  
 // function call
 addnumbers();
 register('Ama', '04-02-2023');
 
-echo '<br/>','Elevy = ', calElevy(200);
+echo '<br/>', 'Elevy = ', calElevy(200);
+
+echo '<br/> Amount to take home ', $Salary(500);
+
+?>
