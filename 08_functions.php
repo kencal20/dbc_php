@@ -25,6 +25,8 @@ $Salary = function ($takehomeAmt)
     return $takehomeAmt + $rent;
 
   };
+
+  $ssnitCnt = fn($amt) => $amt * 5/100;
   
 // function call
 addnumbers();
@@ -34,4 +36,5 @@ echo '<br/>', 'Elevy = ', calElevy(200);
 
 echo '<br/> Amount to take home ', $Salary(500);
 
+echo '<br/> Amount for ssnit  ', $ssnitCnt(200);
 ?>
