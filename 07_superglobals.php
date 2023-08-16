@@ -1,4 +1,17 @@
 <?php
+
+/*Superglobals are in built variables which are always available in scope
+
+$_GET - contains info abt variables pass thru the url/ addressbar
+$_POST - contains info abt variables pass thru a form
+$_COOKIE -  contains info abt variables pass thru a cookie
+$_SESSION - contains info abt variables pass thru a session
+$_SERVER - info abt server environment
+$_ENV -Environment variables
+$_FILES -files uploaded to a script
+$_REQUEST - contains info abt variables pass thru a form
+*/
+
 // var_dump($_SERVER)
 echo $_GET['course'], "<br/>";
 
