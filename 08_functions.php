@@ -2,13 +2,13 @@
 
 function addnumbers()
 {
-    echo $total = 2 + 3;
+    echo $total = 2 + 3 ,'<br/>'; 
 }
 
 function register($name, $dob)
 {
-    echo 'Student Name is ', $name;
-    echo 'Date of birth is', $dob;
+    echo 'Student Name is ', $name,'  ';
+    echo 'Date of birth is ', $dob;
 }
 // function call
 addnumbers();
